@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#gridContainer {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.cell.alive {
+  background-color: #4CAF50;
+}
+
+.cell.dead {
+  background-color: #f0f0f0;
+}
