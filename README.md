@@ -26,14 +26,14 @@ Conway's Game of Life is a cellular automaton where cells on a grid can live, di
 
 ## Example
 Given the currentState:
-  0 1 0
-  0 1 0
-  0 1 0
+ - 0 1 0
+ - 0 1 0
+ - 0 1 0
 
 The nextState should be:
-  0 0 0
-  1 1 1
-  0 0 0
+ - 0 0 0
+ - 1 1 1
+ - 0 0 0
 
 ## What We're Looking For
  - Abstract Thinking: Ability to understand and implement the rules, and handle edge cases.
